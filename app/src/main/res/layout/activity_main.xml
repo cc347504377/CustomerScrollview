@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.luoye.demo.myscolllayout.Mscolllayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:padding="100dp">
+        <LinearLayout
+            android:background="@color/colorAccent"
+            android:id="@+id/layout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/scroll"
+                android:background="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/content"
+                android:background="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+        </LinearLayout>
+
+        </LinearLayout>
+    </com.luoye.demo.myscolllayout.Mscolllayout>
+</RelativeLayout>
